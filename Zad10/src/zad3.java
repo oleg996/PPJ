@@ -5,8 +5,7 @@ public class zad3 {
         char ar[] = new char[10];
         Scanner s =new Scanner(System.in);
         char let[] = {'q','w','e','r','t','y','u','i','o','p','a','s','d','f','g','h','j','k','l','z','x','c','v','b','n','n','m','m'};
-        int a = 'A';
-        int z = 'Z';
+      
         for (int i = 0 ; i<ar.length;i++){
            ar[i] = (char)((int)(Math.random()*25)+65);
             System.out.println(ar[i]);
