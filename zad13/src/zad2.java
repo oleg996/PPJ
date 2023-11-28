@@ -10,10 +10,7 @@ public class zad2 {
         int[] c  = new int[clen];
         fillwithrandom(c);
 
-        int[][] fin = new int[3][];
-        fin[0] = a;
-        fin[1] = b;
-        fin[2] = c;
+        int[][] fin = {a,b,c};
         for (int i = 0; i < fin.length; i++) {
             for (int j = 0; j < fin[i].length; j++) {
                 System.out.print(fin[i][j]+"_");
