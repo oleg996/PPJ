@@ -128,9 +128,9 @@ class dot {
             h1[i].rm(a);
         }
     }
-    void modf(int i,int a){
-        clamp(i-1,a);
-        clamp(i+1,a);
-        clamp(i-100,a);
-        clamp(i+100,a);
+    void modf(int b,int a){
+        clamp(b-1,a);
+        clamp(b+1,a);
+        clamp(b-100,a);
+        clamp(b+100,a);
     }
